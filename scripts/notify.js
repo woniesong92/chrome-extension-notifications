@@ -24,7 +24,7 @@
     // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     // User Clicked on a Button inside the Desktop Notification
     // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-    chrome.notifications.onButtonClicked.addListener(function(notificationId, buttonIndex){
-        console.log("whatever you want here!")
-    });
+    // chrome.notifications.onButtonClicked.addListener(function(notificationId, buttonIndex){
+    //     console.log("whatever you want here!")
+    // });
 })();
